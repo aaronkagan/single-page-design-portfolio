@@ -185,4 +185,36 @@ body {
       }
     }
   }
+
+  .contact {
+    text-align: center;
+    background-color: var(--black);
+    border-radius: 1rem;
+    padding: 4.9rem 2.4rem;
+    margin-top: 10rem;
+    color: var(--white);
+
+    .container {
+      .title {
+        font-size: 2.6rem;
+      }
+      .text {
+        margin-top: 2.4rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        font-weight: var(--medium);
+      }
+    }
+
+    .consultation {
+      margin-top: 2.4rem;
+      text-decoration: none;
+      padding: 1.6rem 2.7rem;
+      background-color: var(--red);
+      border-radius: 9999px;
+      font-size: 1.4rem;
+      color: var(--white);
+      display: inline-block;
+    }
+  }
 }

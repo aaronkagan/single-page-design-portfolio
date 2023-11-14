@@ -160,4 +160,31 @@ body {
   font-size: 1.4rem;
   color: var(--white);
   display: inline-block;
+}
+.main .contact {
+  text-align: center;
+  background-color: var(--black);
+  border-radius: 1rem;
+  padding: 4.9rem 2.4rem;
+  margin-top: 10rem;
+  color: var(--white);
+}
+.main .contact .container .title {
+  font-size: 2.6rem;
+}
+.main .contact .container .text {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: var(--medium);
+}
+.main .contact .consultation {
+  margin-top: 2.4rem;
+  text-decoration: none;
+  padding: 1.6rem 2.7rem;
+  background-color: var(--red);
+  border-radius: 9999px;
+  font-size: 1.4rem;
+  color: var(--white);
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
