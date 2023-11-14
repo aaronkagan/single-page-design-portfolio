@@ -79,6 +79,13 @@ body {
     gap: 2.4rem;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 18.2rem;
+    grid-template-areas:
+      'one one'
+      'one one'
+      'two three'
+      'four four'
+      'five five'
+      'six six';
 
     .item {
       border-radius: 0.8rem;
@@ -89,7 +96,7 @@ body {
       flex-direction: column;
       justify-content: space-between;
       img {
-        width: 12.8rem;
+        width: 6.4rem;
         align-self: flex-end;
       }
 
@@ -103,26 +110,42 @@ body {
 
     .item-1 {
       background-color: var(--purple);
-      grid-column: span 2;
-      grid-row: span 2;
+      grid-area: one;
+      img {
+        width: 12.8rem;
+      }
     }
     .item-2 {
       background-color: var(--orange);
+      grid-area: two;
     }
     .item-3 {
       background-color: var(--salmon);
+      grid-area: three;
     }
     .item-4 {
       background-color: var(--red);
-      grid-column: span 2;
+      grid-area: four;
+
+      img {
+        width: 12.8rem;
+      }
     }
     .item-5 {
       background-color: var(--green);
-      grid-column: span 2;
+      grid-area: five;
+
+      img {
+        width: 12.8rem;
+      }
     }
     .item-6 {
       background-color: var(--eggplant);
-      grid-column: span 2;
+      grid-area: six;
+
+      img {
+        width: 12.8rem;
+      }
     }
   }
 }
