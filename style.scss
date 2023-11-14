@@ -218,3 +218,31 @@ body {
     }
   }
 }
+
+.footer {
+  margin: 4.2rem 0 2.4rem;
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 4.8rem;
+      height: 4.8rem;
+    }
+
+    .consultation {
+      background-color: var(--black);
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: var(--white);
+      font-weight: var(--bold);
+      padding: 1.5rem 2.7rem;
+      border-radius: 9999px;
+    }
+  }
+}
+
+// .wrapper {
+//   padding: 0rem;
+// }
