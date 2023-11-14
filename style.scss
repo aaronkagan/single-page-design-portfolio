@@ -1,0 +1,72 @@
+:root {
+  --purple: #755cde;
+  --orange: #f6a560;
+  --salmon: #f39e9e;
+  --red: #eb7565;
+  --green: #61c4b7;
+  --eggplant: #552049;
+  --black: #030303;
+  --gray: #7a746e;
+  --white: #fff7f0;
+
+  --bold: 700;
+  --medium: 500;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 1.6rem;
+  font-weight: var(--medium);
+}
+
+.header {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 4.8rem;
+      height: 4.8rem;
+    }
+
+    .consultation {
+      background-color: var(--black);
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: var(--white);
+      font-weight: var(--bold);
+      padding: 1.5rem 2.7rem;
+      border-radius: 9999px;
+    }
+  }
+
+  .title {
+    font-size: 3.6rem;
+    color: var(--black);
+    text-align: center;
+    margin-top: 3.2rem;
+    font-weight: var(--bold);
+  }
+
+  .text {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--gray);
+    margin-top: 1.6rem;
+    padding: 0 1.6rem;
+  }
+}
