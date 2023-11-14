@@ -62,4 +62,41 @@ body {
   color: var(--gray);
   margin-top: 1.6rem;
   padding: 0 1.6rem;
+}
+
+.main .gallery {
+  margin-top: 3.2rem;
+  padding: 0 1.6rem;
+  display: grid;
+  gap: 2.4rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 18.2rem;
+}
+.main .gallery .item {
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+.main .gallery .item-1 {
+  background-color: var(--purple);
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.main .gallery .item-2 {
+  background-color: var(--orange);
+}
+.main .gallery .item-3 {
+  background-color: var(--salmon);
+}
+.main .gallery .item-4 {
+  background-color: var(--red);
+  grid-column: span 2;
+}
+.main .gallery .item-5 {
+  background-color: var(--green);
+  grid-column: span 2;
+}
+.main .gallery .item-6 {
+  background-color: var(--eggplant);
+  grid-column: span 2;
 }/*# sourceMappingURL=style.css.map */
