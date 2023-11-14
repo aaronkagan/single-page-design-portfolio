@@ -26,7 +26,6 @@ html {
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  padding: 1.6rem;
   font-weight: var(--medium);
 }
 
@@ -66,7 +65,6 @@ body {
 
 .main .gallery {
   margin-top: 3.2rem;
-  padding: 0 1.6rem;
   display: grid;
   gap: 2.4rem;
   grid-template-columns: repeat(2, 1fr);
@@ -161,6 +159,11 @@ body {
   color: var(--white);
   display: inline-block;
 }
+.main .portfolio {
+  height: 325px;
+  background-color: red;
+  margin-top: 10rem;
+}
 .main .contact {
   text-align: center;
   background-color: var(--black);
@@ -209,4 +212,8 @@ body {
   font-weight: var(--bold);
   padding: 1.5rem 2.7rem;
   border-radius: 9999px;
+}
+
+.wrapper {
+  padding: 1.6rem;
 }/*# sourceMappingURL=style.css.map */
