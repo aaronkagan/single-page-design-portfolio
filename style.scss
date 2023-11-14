@@ -28,6 +28,7 @@ html {
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: var(--medium);
+  color: var(--black);
 }
 
 .header {
@@ -184,21 +185,26 @@ body {
     }
   }
 
-  .portfolio {
-    height: 325px;
-    background-color: red;
-    margin-top: 10rem;
-    .title {
-    }
-    .slider {
-    }
-    .nav {
-      .button.left {
-      }
-      .button.right {
-      }
-    }
-  }
+  // .portfolio {
+  //   margin-top: 10rem;
+  //   text-align: center;
+  //   .title {
+  //     font-size: 2.4rem;
+  //     font-weight: var(--bold);
+  //   }
+  //   .slider {
+  //   }
+  //   .nav {
+  //     .button {
+  //       width: 6.4rem;
+  //       background-color: black;
+  //     }
+  //     .button.left {
+  //     }
+  //     .button.right {
+  //     }
+  //   }
+  // }
 
   .contact {
     text-align: center;

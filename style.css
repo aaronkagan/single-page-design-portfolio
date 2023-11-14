@@ -27,6 +27,7 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: var(--medium);
+  color: var(--black);
 }
 
 .header .nav {
@@ -158,11 +159,6 @@ body {
   font-size: 1.4rem;
   color: var(--white);
   display: inline-block;
-}
-.main .portfolio {
-  height: 325px;
-  background-color: red;
-  margin-top: 10rem;
 }
 .main .contact {
   text-align: center;
