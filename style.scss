@@ -84,6 +84,21 @@ body {
       border-radius: 0.8rem;
       width: 100%;
       height: 100%;
+      padding: 2.4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      img {
+        width: 12.8rem;
+        align-self: flex-end;
+      }
+
+      .text {
+        color: var(--white);
+        font-size: 2.4rem;
+        font-weight: var(--bold);
+        justify-self: flex-end;
+      }
     }
 
     .item-1 {
