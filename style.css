@@ -1,0 +1,27 @@
+:root {
+  --purple: #755cde;
+  --orange: #f6a560;
+  --salmon: #f39e9e;
+  --red: #eb7565;
+  --green: #61c4b7;
+  --eggplant: #552049;
+  --black: #030303;
+  --gray: #7a746e;
+  --white: #fff7f0;
+
+  --heading-large: 5.6rem;
+  --heading-large-line: 7rem;
+  --heading-medium: 4rem;
+  --heading-medium-line: 5.1rem;
+  --heading-small: 3.2rem;
+  --heading-small-line: 4rem;
+  --body-medium: 1.8rem;
+  --body-medium-line: 2.8rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
