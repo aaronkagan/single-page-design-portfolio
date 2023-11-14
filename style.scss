@@ -148,4 +148,41 @@ body {
       }
     }
   }
+
+  .about {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 27.6rem;
+    }
+
+    .container {
+      margin-top: 4rem;
+      text-align: center;
+      .title {
+        font-size: 2.6rem;
+        font-weight: var(--bold);
+      }
+      .text {
+        margin-top: 2.4rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        color: var(--gray);
+      }
+
+      .consultation {
+        margin-top: 2.4rem;
+        text-decoration: none;
+        padding: 1.6rem 2.7rem;
+        background-color: var(--red);
+        border-radius: 9999px;
+        font-size: 1.4rem;
+        color: var(--white);
+        display: inline-block;
+      }
+    }
+  }
 }
