@@ -191,6 +191,7 @@ body {
         font-size: 1.4rem;
         color: var(--white);
         display: inline-block;
+        line-height: 2.8rem;
 
         &:hover {
           background-color: var(--orange);
@@ -249,6 +250,7 @@ body {
       font-size: 1.4rem;
       color: var(--white);
       display: inline-block;
+      line-height: 2.8rem;
 
       &:hover {
         background-color: var(--orange);
@@ -318,12 +320,46 @@ body {
   }
   .main {
     margin-top: 6.4rem;
+
     .gallery {
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas:
         'one one two three'
         'one one four four'
         'five five six six';
+    }
+
+    .about {
+      margin-top: 12rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      img {
+        width: 36.4rem;
+        transform: translate(-8.5rem);
+        flex: 1;
+      }
+
+      .container {
+        margin-top: 0;
+        text-align: left;
+        flex-basis: 50%;
+
+        .title {
+          font-size: 3.2rem;
+        }
+
+        .text {
+          font-size: 1.8rem;
+          line-height: 2.8rem;
+        }
+
+        .consultation {
+          font-size: 1.6rem;
+          padding: 1.4rem 4.5rem;
+        }
+      }
     }
   }
 }

@@ -170,6 +170,7 @@ body {
   font-size: 1.4rem;
   color: var(--white);
   display: inline-block;
+  line-height: 2.8rem;
 }
 .main .about .container .consultation:hover {
   background-color: var(--orange);
@@ -200,6 +201,7 @@ body {
   font-size: 1.4rem;
   color: var(--white);
   display: inline-block;
+  line-height: 2.8rem;
 }
 .main .contact .consultation:hover {
   background-color: var(--orange);
@@ -261,5 +263,32 @@ body {
   .main .gallery {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "one one two three" "one one four four" "five five six six";
+  }
+  .main .about {
+    margin-top: 12rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .main .about img {
+    width: 36.4rem;
+    transform: translate(-8.5rem);
+    flex: 1;
+  }
+  .main .about .container {
+    margin-top: 0;
+    text-align: left;
+    flex-basis: 50%;
+  }
+  .main .about .container .title {
+    font-size: 3.2rem;
+  }
+  .main .about .container .text {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .main .about .container .consultation {
+    font-size: 1.6rem;
+    padding: 1.4rem 4.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
