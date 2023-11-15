@@ -31,7 +31,12 @@ body {
   color: var(--black);
 }
 
+.wrapper {
+  padding: 0 1.6rem;
+}
+
 .header {
+  margin-top: 1.6rem;
   .nav {
     display: flex;
     align-items: center;
@@ -48,8 +53,9 @@ body {
       font-size: 1.4rem;
       color: var(--white);
       font-weight: var(--bold);
-      padding: 1.5rem 2.7rem;
+      padding: 0.8rem 2.7rem;
       border-radius: 9999px;
+      line-height: 2.8rem;
 
       &:hover {
         background-color: var(--purple);
@@ -279,6 +285,35 @@ body {
   }
 }
 
-.wrapper {
-  padding: 1.6rem;
+@media all and (min-width: 768px) {
+  .wrapper {
+    padding: 0 3.9rem;
+  }
+
+  .header {
+    margin-top: 3.8rem;
+    .nav {
+      .logo {
+        width: 6.4rem;
+        height: 6.4rem;
+      }
+
+      .consultation {
+        font-size: 1.6rem;
+        padding: 1.4rem 4.5rem;
+      }
+    }
+
+    .title {
+      font-size: 4.4rem;
+      margin-top: 6.8rem;
+    }
+
+    .text {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      max-width: 60rem;
+      margin: 2.7rem auto 0;
+    }
+  }
 }
