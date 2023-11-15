@@ -200,26 +200,16 @@ body {
     }
   }
 
-  // .portfolio {
-  //   margin-top: 10rem;
-  //   text-align: center;
-  //   .title {
-  //     font-size: 2.4rem;
-  //     font-weight: var(--bold);
-  //   }
-  //   .slider {
-  //   }
-  //   .nav {
-  //     .button {
-  //       width: 6.4rem;
-  //       background-color: black;
-  //     }
-  //     .button.left {
-  //     }
-  //     .button.right {
-  //     }
-  //   }
-  // }
+  .portfolio {
+    margin-top: 10rem;
+
+    .title {
+      text-align: center;
+      color: var(--black);
+      font-size: 2.4rem;
+      font-weight: var(--bold);
+    }
+  }
 
   .contact {
     text-align: center;
