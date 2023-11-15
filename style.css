@@ -48,6 +48,9 @@ body {
   padding: 1.5rem 2.7rem;
   border-radius: 9999px;
 }
+.header .nav .consultation:hover {
+  background-color: var(--purple);
+}
 .header .title {
   font-size: 3.6rem;
   color: var(--black);
@@ -160,6 +163,9 @@ body {
   color: var(--white);
   display: inline-block;
 }
+.main .about .container .consultation:hover {
+  background-color: var(--orange);
+}
 .main .contact {
   text-align: center;
   background-color: var(--black);
@@ -187,6 +193,9 @@ body {
   color: var(--white);
   display: inline-block;
 }
+.main .contact .consultation:hover {
+  background-color: var(--orange);
+}
 
 .footer {
   margin: 4.2rem 0 2.4rem;
@@ -208,6 +217,9 @@ body {
   font-weight: var(--bold);
   padding: 1.5rem 2.7rem;
   border-radius: 9999px;
+}
+.footer .nav .consultation:hover {
+  background-color: var(--purple);
 }
 
 .wrapper {

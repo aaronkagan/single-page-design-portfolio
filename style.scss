@@ -50,6 +50,10 @@ body {
       font-weight: var(--bold);
       padding: 1.5rem 2.7rem;
       border-radius: 9999px;
+
+      &:hover {
+        background-color: var(--purple);
+      }
     }
   }
 
@@ -181,6 +185,10 @@ body {
         font-size: 1.4rem;
         color: var(--white);
         display: inline-block;
+
+        &:hover {
+          background-color: var(--orange);
+        }
       }
     }
   }
@@ -235,6 +243,10 @@ body {
       font-size: 1.4rem;
       color: var(--white);
       display: inline-block;
+
+      &:hover {
+        background-color: var(--orange);
+      }
     }
   }
 }
@@ -259,6 +271,10 @@ body {
       font-weight: var(--bold);
       padding: 1.5rem 2.7rem;
       border-radius: 9999px;
+
+      &:hover {
+        background-color: var(--purple);
+      }
     }
   }
 }
