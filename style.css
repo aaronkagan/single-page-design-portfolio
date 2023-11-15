@@ -255,4 +255,11 @@ body {
     max-width: 60rem;
     margin: 2.7rem auto 0;
   }
+  .main {
+    margin-top: 6.4rem;
+  }
+  .main .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "one one two three" "one one four four" "five five six six";
+  }
 }/*# sourceMappingURL=style.css.map */

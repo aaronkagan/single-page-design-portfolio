@@ -316,4 +316,14 @@ body {
       margin: 2.7rem auto 0;
     }
   }
+  .main {
+    margin-top: 6.4rem;
+    .gallery {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas:
+        'one one two three'
+        'one one four four'
+        'five five six six';
+    }
+  }
 }
