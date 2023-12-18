@@ -11,9 +11,9 @@ const slider = document.querySelector('.slider');
 const slideWidth = slider.clientWidth;
 
 // Setting slider to middle on content load
-document.addEventListener('DOMContentLoaded', function () {
-  slider.scrollLeft = slideWidth * 1.5;
-});
+// document.addEventListener('DOMContentLoaded', function () {
+slider.scrollLeft = slideWidth * 1.5;
+// });
 
 prev.addEventListener('click', () => {
   // Calculate the new scroll position based on the current position
