@@ -396,5 +396,30 @@ body {
         }
       }
     }
+
+    .portfolio {
+      margin-top: 12rem;
+
+      .title {
+        font-size: 3.2rem;
+      }
+
+      .slider-wrapper {
+        margin: 5.6rem auto 0;
+
+        .slider {
+          gap: 3rem;
+
+          img {
+            max-width: 54rem;
+          }
+        }
+
+        .buttons {
+          gap: 1.6rem;
+          margin-top: 5.6rem;
+        }
+      }
+    }
   }
 }

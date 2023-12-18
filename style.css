@@ -338,4 +338,23 @@ body {
     font-size: 1.6rem;
     padding: 1.4rem 4.5rem;
   }
+  .main .portfolio {
+    margin-top: 12rem;
+  }
+  .main .portfolio .title {
+    font-size: 3.2rem;
+  }
+  .main .portfolio .slider-wrapper {
+    margin: 5.6rem auto 0;
+  }
+  .main .portfolio .slider-wrapper .slider {
+    gap: 3rem;
+  }
+  .main .portfolio .slider-wrapper .slider img {
+    max-width: 54rem;
+  }
+  .main .portfolio .slider-wrapper .buttons {
+    gap: 1.6rem;
+    margin-top: 5.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */
