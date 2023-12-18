@@ -28,6 +28,7 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: var(--medium);
   color: var(--black);
+  background-color: var(--white);
 }
 
 .wrapper {
@@ -285,7 +286,7 @@ body {
     padding: 0 3.9rem;
   }
   .header {
-    margin-top: 3.8rem;
+    margin-top: 3.4rem;
   }
   .header .nav .logo {
     width: 6.4rem;
@@ -385,5 +386,17 @@ body {
   .footer .nav .consultation {
     font-size: 1.6rem;
     padding: 1.4rem 4.5rem;
+  }
+}
+@media all and (min-width: 1440px) {
+  .wrapper {
+    padding: 0 16.5rem;
+  }
+  .header .title {
+    font-size: 5.6rem;
+  }
+  .header .text {
+    max-width: 73rem;
+    margin-top: 2.3rem;
   }
 }/*# sourceMappingURL=style.css.map */
