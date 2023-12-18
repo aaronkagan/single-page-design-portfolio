@@ -295,7 +295,7 @@ body {
 }
 
 .footer {
-  margin: 4.2rem 0 2.4rem;
+  margin: 4.2rem 0 3.2rem;
   .nav {
     display: flex;
     align-items: center;
@@ -312,8 +312,9 @@ body {
       font-size: 1.4rem;
       color: var(--white);
       font-weight: var(--bold);
-      padding: 1.3rem 2.7rem;
+      padding: 0.8rem 2.7rem;
       border-radius: 9999px;
+      line-height: 2.8rem;
 
       &:hover {
         background-color: var(--purple);
@@ -441,6 +442,21 @@ body {
         margin-top: 2.6rem;
         padding: 1.4rem 4.5rem;
         font-size: 1.6rem;
+      }
+    }
+  }
+  .footer {
+    margin: 5.6rem 0;
+
+    .nav {
+      .logo {
+        width: 6.4rem;
+        height: 6.4rem;
+      }
+
+      .consultation {
+        font-size: 1.6rem;
+        padding: 1.4rem 4.5rem;
       }
     }
   }

@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('loaded');
+});
+
 const slide1 = document.querySelector('.slide-1');
 const slide2 = document.querySelector('.slide-2');
 const slide3 = document.querySelector('.slide-3');
