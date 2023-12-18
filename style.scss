@@ -485,4 +485,15 @@ body {
       margin-top: 2.3rem;
     }
   }
+
+  .main {
+    margin-top: 8rem;
+
+    .gallery {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas:
+        'one one two three five five'
+        'one one four four six six';
+    }
+  }
 }

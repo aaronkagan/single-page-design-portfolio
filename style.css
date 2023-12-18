@@ -399,4 +399,11 @@ body {
     max-width: 73rem;
     margin-top: 2.3rem;
   }
+  .main {
+    margin-top: 8rem;
+  }
+  .main .gallery {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "one one two three five five" "one one four four six six";
+  }
 }/*# sourceMappingURL=style.css.map */
