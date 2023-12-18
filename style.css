@@ -322,12 +322,10 @@ body {
   .main .about img {
     width: 36.4rem;
     transform: translate(-8.5rem);
-    flex: 1;
   }
   .main .about .container {
     margin-top: 0;
     text-align: left;
-    flex-basis: 50%;
   }
   .main .about .container .title {
     font-size: 3.2rem;
@@ -405,5 +403,25 @@ body {
   .main .gallery {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "one one two three five five" "one one four four six six";
+  }
+  .main .about {
+    margin-top: 13.6rem;
+    align-items: center;
+  }
+  .main .about img {
+    transform: unset;
+    width: 44.5rem;
+  }
+  .main .about .container {
+    flex-basis: 50%;
+  }
+  .main .about .container .title {
+    font-size: 4rem;
+  }
+  .main .about .container .text {
+    margin-top: 3.4rem;
+  }
+  .main .about .container .consultation {
+    margin-top: 3.2rem;
   }
 }/*# sourceMappingURL=style.css.map */

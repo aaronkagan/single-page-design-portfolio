@@ -375,13 +375,11 @@ body {
       img {
         width: 36.4rem;
         transform: translate(-8.5rem);
-        flex: 1;
       }
 
       .container {
         margin-top: 0;
         text-align: left;
-        flex-basis: 50%;
 
         .title {
           font-size: 3.2rem;
@@ -494,6 +492,31 @@ body {
       grid-template-areas:
         'one one two three five five'
         'one one four four six six';
+    }
+
+    .about {
+      margin-top: 13.6rem;
+      align-items: center;
+
+      img {
+        transform: unset;
+        width: 44.5rem;
+      }
+
+      .container {
+        flex-basis: 50%;
+        .title {
+          font-size: 4rem;
+        }
+
+        .text {
+          margin-top: 3.4rem;
+        }
+
+        .consultation {
+          margin-top: 3.2rem;
+        }
+      }
     }
   }
 }
