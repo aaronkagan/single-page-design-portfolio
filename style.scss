@@ -185,7 +185,7 @@ body {
       .consultation {
         margin-top: 2.4rem;
         text-decoration: none;
-        padding: 1.6rem 2.7rem;
+        padding: 0.8rem 2.7rem;
         background-color: var(--red);
         border-radius: 9999px;
         font-size: 1.4rem;
@@ -279,7 +279,7 @@ body {
     .consultation {
       margin-top: 2.4rem;
       text-decoration: none;
-      padding: 1.6rem 2.7rem;
+      padding: 0.8rem 2.7rem;
       background-color: var(--red);
       border-radius: 9999px;
       font-size: 1.4rem;
@@ -312,7 +312,7 @@ body {
       font-size: 1.4rem;
       color: var(--white);
       font-weight: var(--bold);
-      padding: 1.5rem 2.7rem;
+      padding: 1.3rem 2.7rem;
       border-radius: 9999px;
 
       &:hover {
@@ -419,6 +419,28 @@ body {
           gap: 1.6rem;
           margin-top: 5.6rem;
         }
+      }
+    }
+
+    .contact {
+      margin-top: 12rem;
+      padding: 5.6rem 7.5rem;
+
+      .container {
+        .title {
+          font-size: 3.2rem;
+        }
+        .text {
+          margin-top: 2.6rem;
+          font-size: 1.8rem;
+          line-height: 2.8rem;
+        }
+      }
+
+      .consultation {
+        margin-top: 2.6rem;
+        padding: 1.4rem 4.5rem;
+        font-size: 1.6rem;
       }
     }
   }
