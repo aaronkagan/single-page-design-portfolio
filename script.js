@@ -34,3 +34,19 @@ next.addEventListener('click', () => {
   // behavior when at the start
   slider.scrollLeft = newPosition - slideWidth / 2;
 });
+
+document.addEventListener('keydown', function (event) {
+  let newPosition = slider.scrollLeft + slideWidth;
+
+  switch (event.key) {
+    case 'ArrowLeft':
+      slider.scrollLeft = newPosition + slideWidth / 2;
+      break;
+    case 'ArrowRight':
+      slider.scrollLeft = newPosition - slideWidth / 2;
+      break;
+    default:
+      // Ignore other keys
+      break;
+  }
+});
