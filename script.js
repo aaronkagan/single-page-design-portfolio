@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-  console.log('loaded');
-});
-
 const slide1 = document.querySelector('.slide-1');
 const slide2 = document.querySelector('.slide-2');
 const slide3 = document.querySelector('.slide-3');
@@ -12,8 +8,12 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
 const slider = document.querySelector('.slider');
-
 const slideWidth = slider.clientWidth;
+
+// Setting slider to middle on content load
+document.addEventListener('DOMContentLoaded', function () {
+  slider.scrollLeft = slideWidth * 1.5;
+});
 
 prev.addEventListener('click', () => {
   // Calculate the new scroll position based on the current position
