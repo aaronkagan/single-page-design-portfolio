@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 prev.addEventListener('click', () => {
   // Calculate the new scroll position based on the current position
   const newPosition = slider.scrollLeft - slideWidth;
-
-  // Use scrollTo for smooth scrolling
   // Adding more to newPosition to compensate for the scrolling
   // behavior when at the end
   slider.scrollLeft = newPosition + slideWidth / 2;
@@ -28,8 +26,6 @@ prev.addEventListener('click', () => {
 next.addEventListener('click', () => {
   // Calculate the new scroll position based on the current position
   const newPosition = slider.scrollLeft + slideWidth;
-
-  // Use scrollTo for smooth scrolling
   // Removing more to newPosition to compensate for the scrolling
   // behavior when at the start
   slider.scrollLeft = newPosition - slideWidth / 2;

@@ -4,8 +4,5 @@
 .DS_Store
 .prettierignore
 
-README-template.md
-README.md.old
-preview.jpg
+
 .vscode
-todo.md
