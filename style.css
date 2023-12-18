@@ -216,6 +216,9 @@ body {
   cursor: pointer;
   border-radius: 50%;
 }
+.main .portfolio .slider-wrapper .buttons .button:hover {
+  background-color: var(--purple);
+}
 .main .portfolio .slider-wrapper .slider::-webkit-scrollbar {
   display: none;
 }

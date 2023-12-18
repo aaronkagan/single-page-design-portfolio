@@ -241,6 +241,10 @@ body {
           border: none;
           cursor: pointer;
           border-radius: 50%;
+
+          &:hover {
+            background-color: var(--purple);
+          }
         }
       }
 
