@@ -522,5 +522,32 @@ body {
     .portfolio {
       margin-top: 8.8rem;
     }
+
+    .contact {
+      margin-top: 8.8rem;
+      padding: 8.1rem 6.5rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .container {
+        flex-basis: 52%;
+        text-align: start;
+
+        .title {
+          font-size: 4rem;
+        }
+
+        .text {
+          margin-top: 2.5rem;
+        }
+      }
+
+      .consultation {
+        margin-right: 9.5rem;
+        margin-top: unset;
+      }
+    }
   }
 }
